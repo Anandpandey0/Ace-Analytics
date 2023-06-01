@@ -23,20 +23,20 @@ const Leaders = () => {
               </div>
               <div>
                 {" "}
-                <p>6</p>
-                <p>States</p>
+                <p>2</p>
+                <p>State Presidents</p>
               </div>
             </div>
             <div className="flex w-full justify-evenly text-center text-3xl ">
               <div>
                 {" "}
-                <p>6</p>
-                <p>States</p>
+                <p>50+</p>
+                <p>MLAs</p>
               </div>{" "}
               <div>
                 {" "}
-                <p>6</p>
-                <p>States</p>
+                <p>10+</p>
+                <p>Cabinate Ministers</p>
               </div>
             </div>
           </div>
