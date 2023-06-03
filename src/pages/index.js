@@ -5,6 +5,7 @@ import WorkExperience from "./Components/WorkExperience";
 import AboutUs from "./Components/AboutUs";
 import Leaders from "./Components/Leaders";
 import WhyUs from "./Components/WhyUs";
+import Services from "./Components/Services";
 export default function Home() {
   return (
     <>
@@ -29,6 +30,7 @@ export default function Home() {
 
       <Leaders />
       <WhyUs />
+      <Services />
     </>
   );
 }
