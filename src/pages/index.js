@@ -4,6 +4,7 @@ import WorkExperience from "./Components/WorkExperience";
 
 import AboutUs from "./Components/AboutUs";
 import Leaders from "./Components/Leaders";
+import WhyUs from "./Components/WhyUs";
 export default function Home() {
   return (
     <>
@@ -27,6 +28,7 @@ export default function Home() {
       <WorkExperience />
 
       <Leaders />
+      <WhyUs />
     </>
   );
 }
