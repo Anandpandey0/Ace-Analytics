@@ -37,7 +37,7 @@ const Services = () => {
   ];
   return (
     <div className="bg-[#f5f8fd] p-4 pt-8 ">
-      <div className="w-4/5 mx-auto border-2 border-solid border-black  ">
+      <div className="w-4/5 mx-auto ">
         <h1 className="text-4xl font-bold text-center ">Services</h1>
         <p className="my-4">
           We are political enthusiasts who love to get involved in meticulously

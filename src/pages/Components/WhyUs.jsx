@@ -2,13 +2,13 @@ import React from "react";
 
 const WhyUs = () => {
   return (
-    <div className="bg-gray-200 ">
+    <div className="bg-gray-200 py-10 ">
       <h1 className="text-4xl text-center p-4">
         <span className="text-orange-400 "> &quot; Why Choose </span>
         <span className="text-blue-800 font-bold">Ace Analytics &quot;</span>
       </h1>
-      <div className="card flex gap-4 w-4/5 h-[30vh ] mx-auto border-2 border-solid   bg-white p-4 rounded-lg shadow-xl">
-        <div className=" h-[30vh] w-3/5  p-4 text-lg ">
+      <div className="card flex flex-col lg:flex-row gap-4 w-full lg:w-4/5 h-[100vh] mx-auto border-2 border-solid   bg-white p-4 rounded-lg shadow-xl">
+        <div className=" h-[100vh] lg:w-3/5  p-4 text-lg ">
           <h1 className="text-3xl text-purple-800 mb-4 font-semibold">
             Importance of Political consulting
           </h1>
@@ -20,7 +20,7 @@ const WhyUs = () => {
           where they can communicate effectively with the voters, conduct live
           polls and can get real time feedback at village level.
         </div>
-        <div className=" h-[30vh] w-2/5 border-solid border-2 border-black text-center ">
+        <div className=" h-[30vh] lg:w-2/5 border-solid border-2 border-black text-center ">
           {" "}
           Space For Image
         </div>
