@@ -1,8 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import WorkExperience from "./Components/WorkExperience";
-import { Container } from "@chakra-ui/react";
-import ResponsiveImage from "./Components/ResponsiveImage";
+
 import AboutUs from "./Components/AboutUs";
 import Leaders from "./Components/Leaders";
 export default function Home() {

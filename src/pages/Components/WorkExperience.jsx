@@ -5,6 +5,16 @@ import Section from "./Section";
 import Aside from "./Aside";
 
 const WorkExperience = () => {
+  const arr = [
+    "Telangana | BRS | 119 AC",
+    "Rajasthan | INC | 100 AC",
+    "WB | AITC | 44 AC",
+    "Orissa | BJP | 7AC",
+    "UP | BJP | 8 AC",
+    "Goa | INC | 5 AC ",
+    "Uk | INC | 5 AC",
+    "Punjab | Akali | 1 AC]",
+  ];
   return (
     <>
       <div className="py-6 ">
@@ -16,37 +26,24 @@ const WorkExperience = () => {
           and strategic advising.
         </h3>
       </div>
-
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 lg:h-[60vh] h-fit ">
-        <div className="grid grid-cols-1 sm:grid-cols-4 gap-8">
-          <section className="col-span-2  p-4 h-full bg-blue-800 text-white">
-            <ul className="list-disc   h-full text-lg p-4">
-              <li className="my-8 ">
-                In Rajasthan, the team works in close association with the State
-                President of one of the most important political parties in the
-                state.
+      <div className="flex flex-col lg:flex-row gap-4">
+        <section className="lg:w-1/2 w-full  p-4 h-[70vh] bg-blue-800 text-white border-2 border-solid  ">
+          <ul className="list-disc h-full text-lg p-4 ">
+            {arr.map((item) => (
+              <li key={item.id} className="my-8 ">
+                {item}
               </li>
-              <li className="my-8 ">
-                In Telangana, the team is involved in studying and generating
-                political intelligence reports for all the 119 ACs. The team is
-                working in both, on- field visits and primary research modules.
-              </li>
-              <li className="my-8 ">
-                The Team has worked in WB-AE 2021, UP-AE 2022, Punjab-AE 2022
-                and Goa-AE 2022 assembly elections with multiple Cabinet
-                Ministers and senior leaders from different parties.
-              </li>
-            </ul>
-          </section>
-          <aside className="col-span-2 relative w-full h-[60vh] border-solid border-2">
-            <Image
-              src="https://raw.githubusercontent.com/Anandpandey0/portfolio-images/main/india-map.jpg"
-              alt="Alt"
-              fill
-              className="object-fill lg:object-fill"
-            />
-          </aside>
-        </div>
+            ))}
+          </ul>
+        </section>
+        <aside className="lg:w-1/2 w-full relative  h-[70vh] border-solid border-2">
+          <Image
+            src="https://raw.githubusercontent.com/Anandpandey0/portfolio-images/main/india-map.jpg"
+            alt="Alt"
+            fill
+            className="object-fill lg:object-fill"
+          />
+        </aside>
       </div>
     </>
   );

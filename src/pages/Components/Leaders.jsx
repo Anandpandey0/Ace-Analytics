@@ -3,7 +3,7 @@ import WorkSampleTemplate from "./WorkSampleTemplate";
 
 const Leaders = () => {
   return (
-    <main className="bg-blue-800 mt-6 p-4">
+    <main className="bg-blue-800 mt-10 p-4">
       <h1 className="text-center">
         <span className="text-yellow-500 text-3xl font-bold mr-6">
           Few Prominent Leaders
@@ -18,7 +18,7 @@ const Leaders = () => {
             <div className="flex w-full justify-evenly  text-center text-3xl my-4 mb-10">
               <div>
                 {" "}
-                <p>6</p>
+                <p>8</p>
                 <p>States</p>
               </div>
               <div>

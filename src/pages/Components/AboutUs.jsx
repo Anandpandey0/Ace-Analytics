@@ -6,7 +6,7 @@ const AboutUs = () => {
       <div className="w-full lg:w-1/2 mx-auto p-4 flex flex-col gap-6 ">
         <h1 className="text-3xl font-semibold underline	">About Us</h1>
         <h3 className="text-xl font-semibold">
-          Work with Leaders, Deliver Excellence to Voters
+          Acing political battles smoothly , efficiently !!
         </h3>
         <p>
           We are a team of young professionals, led by IIT graduates, having
