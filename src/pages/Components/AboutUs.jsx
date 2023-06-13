@@ -1,29 +1,46 @@
+import Image from "next/image";
 import React from "react";
+import { FaCircle } from "react-icons/fa";
 
 const AboutUs = () => {
   return (
-    <div className="bg-gray-200">
-      <div className="w-full lg:w-1/2 mx-auto p-4 flex flex-col gap-6 ">
-        <h1 className="text-3xl font-semibold underline	">About Us</h1>
-        <h3 className="text-xl font-semibold">
-          Acing political battles smoothly , efficiently !!
-        </h3>
-        <p>
-          We are a team of young professionals, led by IIT graduates, having
-          vast experience of political consultation and execution of electoral
-          campaigns.
-        </p>
-        <p>
-          Our founders have held leadership positions at most of the renowned
-          political consultancy firms like I-PAC, Mindshare and ABM
-        </p>
-        <p>
-          Our team members have played important roles in the designing and
-          execution of some of the biggest political campaigns, like West Bengal
-          2021, Goa 2022, Punjab 2022 and Uttar Pradesh 2022 .
-        </p>
+    <>
+      <div className="w-5/6 mx-auto flex flex-col-reverse lg:flex-row gap-8 mt-24">
+        <div className=" lg:w-1/2 h-[60vh] relative">
+          <Image
+            alt="india-map"
+            src={
+              "https://raw.githubusercontent.com/Anandpandey0/portfolio-images/main/clone-map.jpg"
+            }
+            fill
+            className="object-fill lg:object-fill"
+          />
+        </div>
+        <div className="lg:w-1/2 p-4">
+          <h1 className="flex items-center gap-4">
+            <FaCircle className="text-5xl text-blue-800" />
+            <span className=" text-lg font-semibold">ABOUT THE COMPANY</span>
+          </h1>
+          <h1 className="text-3xl font-extrabold mt-4 ">POLTEK</h1>
+          <p className="mt-4 ">
+            We are a team of highly skilled young professionals, led by
+            accomplished IIT graduates with extensive experience in political
+            consultation and the execution of successful electoral campaigns.
+            Our founders have held leadership positions at several renowned
+            political consultancy firms, and our team members have played
+            critical roles in designing and executing some of the most
+            significant political campaigns in the country.
+          </p>
+          <button className="bg-blue-700 hover:bg-blue-800 text-white p-2 mt-4 px-4">
+            Discover More
+          </button>
+        </div>
       </div>
-    </div>
+      <div className="lg:hidden bg-blue-800 text-white font-bold text-xl mt-4 w-5/6 mx-auto p-4">
+        {" "}
+        4 Years Of Experience
+      </div>
+    </>
   );
 };
 

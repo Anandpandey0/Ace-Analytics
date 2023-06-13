@@ -1,30 +1,85 @@
-import React from "react";
+import Image from "next/image";
+import React, { useState } from "react";
+import {
+  FaCircle,
+  FaUserTie,
+  FaPrayingHands,
+  FaUserCheck,
+} from "react-icons/fa";
+import { GrMonitor } from "react-icons/gr";
+import ExpertiseTab from "./WhyUs-Components/ExpertiseTab";
+import TechnologyTab from "./WhyUs-Components/TechnologyTab";
+import WorkEhics from "./WhyUs-Components/WorkEhics";
+import PersonalisedSoution from "./WhyUs-Components/PersonalisedSoution";
 
 const WhyUs = () => {
+  const [selectedButton, setSelectedButton] = useState("Button 1");
+
+  const handleClick = (buttonName) => {
+    setSelectedButton(buttonName);
+  };
+
   return (
-    <div className="bg-gray-200 py-10 ">
-      <h1 className="text-4xl text-center p-4">
-        <span className="text-orange-400 "> &quot; Why Choose </span>
-        <span className="text-blue-800 font-bold">Ace Analytics &quot;</span>
-      </h1>
-      <div className="card flex flex-col lg:flex-row gap-4 w-full lg:w-4/5 h-[100vh] mx-auto border-2 border-solid   bg-white p-4 rounded-lg shadow-xl">
-        <div className=" h-[100vh] lg:w-3/5  p-4 text-lg ">
-          <h1 className="text-3xl text-purple-800 mb-4 font-semibold">
-            Importance of Political consulting
-          </h1>
-          We are amongst the few Political Consultancy firms to have worked
-          across the length and breadth of the country. We are the only
-          political consultancy to provide community-wise voting behavior at the
-          booth level and Candidate-Ranking Matrix using Data Analytics and ML.
-          We are the only company to provide a tech solution to the parties
-          where they can communicate effectively with the voters, conduct live
-          polls and can get real time feedback at village level.
-        </div>
-        <div className=" h-[30vh] lg:w-2/5 border-solid border-2 border-black text-center ">
-          {" "}
-          Space For Image
-        </div>
+    <div className="w-5/6  mx-auto mt-8">
+      <h4 className="flex items-center gap-4">
+        <FaCircle className="text-5xl text-blue-800" />
+        <span className="  font-semibold">Why Us?</span>
+      </h4>
+      <h1 className="text-3xl font-bold mt-4">Why You Should Hire Us?</h1>
+      <div className="flex w-full flex-col lg:flex-row p-2    mt-10 gap-10">
+        <button
+          className="lg:w-1/4 bg-white text-center   flex gap-4 items-center   p-4  hover:bg-blue-800 hover:text-white "
+          style={{
+            backgroundColor: selectedButton === "Button 1" ? "blue" : "",
+            color: selectedButton === "Button 1" ? "white" : "",
+          }}
+          onClick={() => handleClick("Button 1")}
+        >
+          <FaUserTie className="text-2xl text-center" />
+          <h1 className="text-center">Expertise</h1>
+        </button>
+        <button
+          className="lg:w-1/4 bg-white flex gap-4 items-center  p-4 hover:bg-blue-800 hover:text-white "
+          onClick={() => handleClick("Button 2")}
+          style={{
+            backgroundColor: selectedButton === "Button 2" ? "blue" : "",
+            color: selectedButton === "Button 2" ? "white" : "",
+          }}
+        >
+          <GrMonitor className="text-2xl" />
+          <h1>Technology</h1>
+        </button>
+        <button
+          className="lg:w-1/4 bg-white flex  items-center gap-4   p-4  hover:bg-blue-800 hover:text-white"
+          onClick={() => handleClick("Button 3")}
+          style={{
+            backgroundColor: selectedButton === "Button 3" ? "blue" : "",
+            color: selectedButton === "Button 3" ? "white" : "",
+          }}
+        >
+          <FaPrayingHands />
+          <h1>Strong Work Ethics</h1>
+        </button>
+        <button
+          className="lg:w-1/4 bg-white flex gap-4 items-center  p-4 hover:bg-blue-800 hover:text-white "
+          onClick={() => handleClick("Button 4")}
+          style={{
+            backgroundColor: selectedButton === "Button 4" ? "blue" : "",
+            color: selectedButton === "Button 4" ? "white" : "",
+          }}
+        >
+          <FaUserCheck />
+          <h1>Personalised Solution</h1>
+        </button>
       </div>
+      {selectedButton && (
+        <div>
+          {selectedButton === "Button 1" && <ExpertiseTab />}
+          {selectedButton === "Button 2" && <TechnologyTab />}
+          {selectedButton === "Button 3" && <WorkEhics />}
+          {selectedButton === "Button 4" && <PersonalisedSoution />}
+        </div>
+      )}
     </div>
   );
 };

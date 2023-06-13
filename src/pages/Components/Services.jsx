@@ -1,75 +1,33 @@
-import Image from "next/image";
 import React from "react";
-
+import { HiOutlineTrophy } from "react-icons/hi2";
+import { CiGlobe } from "react-icons/ci";
+import { FiSettings } from "react-icons/fi";
 const Services = () => {
-  const serviceArr = [
-    {
-      id: 1,
-      name: "Political Intelligence",
-      url: "https://raw.githubusercontent.com/Anandpandey0/portfolio-images/main/Political-Intel.png",
-    },
-    { id: 2, name: "Tech Platform", url: "" },
-    {
-      id: 3,
-      name: "Data Analtics",
-      url: "https://raw.githubusercontent.com/Anandpandey0/portfolio-images/main/DataAnalytics.png",
-    },
-    {
-      id: 4,
-      name: "Campaign & Branding",
-      url: "https://raw.githubusercontent.com/Anandpandey0/portfolio-images/main/Campaign.png",
-    },
-    {
-      id: 5,
-      name: "Digital Communication",
-      url: "https://raw.githubusercontent.com/Anandpandey0/portfolio-images/main/Digital.png",
-    },
-    {
-      id: 6,
-      name: "Research & Strategy",
-      url: "https://raw.githubusercontent.com/Anandpandey0/portfolio-images/main/Research.png",
-    },
-    {
-      id: 7,
-      name: "Addition Support ",
-      url: "https://raw.githubusercontent.com/Anandpandey0/portfolio-images/main/AdditionSupport.png",
-    },
-  ];
   return (
-    <div className="bg-[#f5f8fd] p-4 pt-8 ">
-      <div className="w-4/5 mx-auto ">
-        <h1 className="text-4xl font-bold text-center ">Services</h1>
-        <p className="my-4">
-          We are political enthusiasts who love to get involved in meticulously
-          designing the right strategies, conceptualising innovative campaigns,
-          work on developing and delivering the right message, reaching out and
-          influencing the electorate and persuading them to act. We can be your
-          one-stop-poll-solution-provider who can empower you to win the
-          election. We embrace and adopt the latest technology to make your job
-          much more easier. We believe in bringing in complete Transparency &
-          Accountability into the Political system, in the process making
-          democracy much more vibrant, robust, participative and representative.
-          To make this happen, we have an umbrella of services.
+    <div className="flex flex-col lg:flex-row z-2  gap-4 lg:h-[45vh] mt-[-15rem] lg:mt-[-5rem] w-5/6 mx-auto ">
+      <div className="lg:mt-8 lg:w-1/3  flex flex-col items-center    p-4 py-8 gap-4 bg-white text-black hover:bg-blue-800 hover:text-white px-8 ">
+        <HiOutlineTrophy className="text-6xl lg:mt-8" />
+        <h1 className="font-bold text-xl">Brand Building </h1>
+        <p className="text-center lg:text-left">
+          Our team of experts will work with you to craft a compelling brand
+          story.
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 w-4/5 mx-auto my-8">
-          {serviceArr.map((item) => (
-            <div
-              class="p-4 border-2 border-solid border-black h-[20vh]  flex flex-col justify-center align-middle text-center shadow-xl hover:scale-110 hover:shadow-2xl"
-              key={item.id}
-              className="my-8 "
-            >
-              <div className="relative w-full  h-[10vh]  ">
-                <Image
-                  src={item.url}
-                  alt="Alt"
-                  fill
-                  className="object-contain lg:object-contain"
-                />
-              </div>
-              {item.name}
-            </div>
-          ))}
-        </div>
+      </div>
+      <div className=" lg:w-1/3 lg:mt-8 flex flex-col items-center  p-4 py-8 gap-4 bg-white text-black hover:bg-blue-800 hover:text-white px-8 ">
+        <CiGlobe className="text-6xl lg:mt-8" />
+        <h1 className="font-bold text-xl">Brand Building </h1>
+        <p className="text-center lg:text-left">
+          Our team of experts will work with you to craft a compelling brand
+          story.
+        </p>
+      </div>
+      <div className="lg:w-1/3 lg:mt-8 flex flex-col items-center   p-4  py-8 gap-4 bg-white text-black hover:bg-blue-800 hover:text-white px-8  ">
+        <FiSettings className="text-6xl lg:mt-8" />
+        <h1 className="font-bold text-xl">Brand Building </h1>
+        <p className="text-center lg:text-left">
+          Our team of experts will work with you to craft a compelling brand
+          story.
+        </p>
       </div>
     </div>
   );
