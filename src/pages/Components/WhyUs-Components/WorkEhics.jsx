@@ -6,7 +6,7 @@ const WorkEhics = () => {
     <div className="border-2 border-solid border-green-500 h-fit   flex-col lg:flex-row bg-white mt-8 rounded-xl flex p-4">
       <div className="lg:w-1/2">
         <h1 className="underline text-2xl font-semibold">Work Ethics</h1>
-        <p className="p-4 mt-8">
+        <div className="p-4 mt-8">
           <ol className="list-decimal text-gray-400 text-md p-2 ">
             <li>
               Poltek Solutions believes in hard work and delivering the best
@@ -26,7 +26,7 @@ const WorkEhics = () => {
               shared information is kept secure.
             </li>
           </ol>
-        </p>
+        </div>
         <button className="bg-blue-600 p-3 px-6 rounded-lg text-white">
           Discover Me{" "}
         </button>

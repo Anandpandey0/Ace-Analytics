@@ -8,7 +8,7 @@ const PersonalisedSoution = () => {
         <h1 className="underline text-2xl font-semibold">
           Personalised Solution
         </h1>
-        <p className="p-4 mt-8">
+        <div className="p-4 mt-8">
           <ol className="list-decimal text-gray-400 text-md p-2 ">
             <li>
               Poltek Solutions understands that every political campaign is
@@ -28,7 +28,7 @@ const PersonalisedSoution = () => {
               possible results from political campaigns.
             </li>
           </ol>
-        </p>
+        </div>
         <button className="bg-blue-600 p-3 px-6 rounded-lg text-white">
           Discover Me{" "}
         </button>

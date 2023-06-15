@@ -26,9 +26,9 @@ function MobileHeader() {
         <DrawerContent>
           <DrawerHeader borderBottomWidth="1px">Basic Drawer</DrawerHeader>
           <DrawerBody>
-            <p>Some contents...</p>
-            <p>Some contents...</p>
-            <p>Some contents...</p>
+            <div>Some contents...</div>
+            <div>Some contents...</div>
+            <div>Some contents...</div>
           </DrawerBody>
         </DrawerContent>
       </Drawer>

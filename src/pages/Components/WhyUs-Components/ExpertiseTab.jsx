@@ -6,7 +6,7 @@ const ExpertiseTab = () => {
     <div className="border-2 border-solid border-green-500  bg-white mt-8 h-fit   flex-col lg:flex-row rounded-xl flex p-4">
       <div className="lg:w-1/2">
         <h1 className="underline text-2xl font-semibold">Our Expertise</h1>
-        <p className="p-4 mt-8">
+        <div className="p-4 mt-8">
           <ol className="list-decimal text-gray-400 text-md p-2 ">
             <li>
               Poltek Solutions is a team of experienced political strategists.
@@ -29,7 +29,7 @@ const ExpertiseTab = () => {
               Poltek Solutions aims to help you achieve your political goals
             </li>
           </ol>
-        </p>
+        </div>
         <button className="bg-blue-600 p-3 px-6 rounded-lg text-white">
           Discover Me{" "}
         </button>

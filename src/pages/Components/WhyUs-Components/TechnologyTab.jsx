@@ -8,7 +8,7 @@ const TechnologyTab = () => {
         <h1 className="underline text-2xl font-semibold">
           Technology & Innovation
         </h1>
-        <p className="p-4 mt-8">
+        <div className="p-4 mt-8">
           <ol className="list-decimal text-gray-400 text-md p-2 ">
             <li>
               Poltek Solutions is committed to using the latest technology to
@@ -31,7 +31,7 @@ const TechnologyTab = () => {
               solutions using the latest technology.
             </li>
           </ol>
-        </p>
+        </div>
         <button className="bg-blue-600 p-3 px-6 rounded-lg text-white">
           Discover Me{" "}
         </button>

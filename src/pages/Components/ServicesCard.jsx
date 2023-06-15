@@ -24,14 +24,14 @@ const ServicesCard = ({ title, paragraph, iconType }) => {
   }
 
   return (
-    <div class="w-full group sm:w-1/3  lg:w-1/5 mx-auto  h-[45vh] border-1 hover:bg-blue-800 hover:text-white p-6 rounded-xl shadow-2xl">
+    <div className="w-full group sm:w-1/3  lg:w-1/5 mx-auto  h-[45vh] border-1 hover:bg-blue-800 hover:text-white p-6 rounded-xl shadow-2xl">
       <div className=" w-fit bg-blue-800 text-white  group-hover:bg-white group-hover:text-blue-800">
         {/* <FiList className="text-5xl " /> */}
         {IconComponent && <IconComponent className="text-5xl " />}
       </div>
       <h1 className="text-2xl mt-4 font-bold">{title}</h1>
-      <p className="my-2">{paragraph}</p>
-      <p className="cursor-pointer mt-8">Read more</p>
+      <div className="my-2">{paragraph}</div>
+      <div className="cursor-pointer mt-8">Read more</div>
     </div>
   );
 };
