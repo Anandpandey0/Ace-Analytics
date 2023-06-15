@@ -6,7 +6,7 @@ import { BiPhoneCall } from "react-icons/bi";
 const Footer = () => {
   return (
     <footer
-      className=" lg:h-[30vh] bg-cover w-full text-white "
+      className=" lg:h-[30vh] bg-cover w-full text-white  text-center lg:text-left"
       style={{
         backgroundImage:
           'url("https://raw.githubusercontent.com/Anandpandey0/portfolio-images/main/background-footer.png")',
@@ -20,21 +20,21 @@ const Footer = () => {
         </div>
         <div className="">
           <h1 className="text-2xl">Address</h1>
-          <div className="flex items-center gap-4 mt-4">
+          <div className="flex items-center gap-4 mt-4 justify-center ">
             <AiOutlineHome className="text-blue-800 text-2xl" />
             <p>Sector 168, Noida</p>
           </div>
-          <div className="flex items-center gap-4 mt-4">
+          <div className="flex items-center gap-4 mt-4 justify-center">
             <BiPhoneCall className="text-blue-800 text-2xl" />
             <p>+91 82793 62030</p>
           </div>
-          <div className="flex items-center gap-4 mt-4">
+          <div className="flex items-center gap-4 mt-4 justify-center">
             <AiOutlineMail className="text-blue-800 text-2xl" />
 
             <Link href="mailto:info@poltek.in">info@poltek.in</Link>
           </div>
         </div>
-        <div className="">
+        <div className="hidden lg:block">
           <h1 className="text-2xl">Services</h1>
           <div className="flex items-center gap-4 mt-4">
             <p>Home</p>

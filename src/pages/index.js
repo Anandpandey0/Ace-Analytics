@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div
-        className="bg-orange h-[250vh] lg:h-[100vh] bg-cover bg-no-repeat "
+        className="bg-orange h-[250vh] lg:h-[100vh] bg-cover bg-no-repeat  "
         style={{
           backgroundImage:
             'url("https://raw.githubusercontent.com/Anandpandey0/portfolio-images/main/india-gate-mornings-scaled.jpg")',

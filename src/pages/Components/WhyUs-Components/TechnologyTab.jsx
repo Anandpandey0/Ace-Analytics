@@ -39,7 +39,7 @@ const TechnologyTab = () => {
       <div className=" lg:w-1/2 relative w-full h-[50vh]  lg:h-inherit">
         <Image
           alt=""
-          src="https://raw.githubusercontent.com/Anandpandey0/portfolio-images/main/Expertise.jpg"
+          src="https://raw.githubusercontent.com/Anandpandey0/portfolio-images/main/Technology.png"
           fill
           className="object-cover"
         />

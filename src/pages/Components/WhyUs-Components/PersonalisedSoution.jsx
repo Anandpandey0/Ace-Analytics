@@ -36,7 +36,7 @@ const PersonalisedSoution = () => {
       <div className="border-2 border-solid lg:w-1/2 relative h-[50vh]">
         <Image
           alt=""
-          src="https://raw.githubusercontent.com/Anandpandey0/portfolio-images/main/Expertise.jpg"
+          src="https://raw.githubusercontent.com/Anandpandey0/portfolio-images/main/personalised.jpg"
           fill
           className="object-cover"
         />

@@ -6,7 +6,7 @@ import Services from "./Services";
 const HomePage = () => {
   return (
     <div className="w-full h-full  mt-[-2rem] lg:mt-24">
-      <div className="lg:w-5/6 w-[95vw]  mx-auto  text-white  mt-32 lg:mt-0 h-[80vh]   ">
+      <div className="lg:w-5/6 w-[95vw]  mx-auto  text-white  mt-32 lg:mt-0 h-[100vh]   ">
         <div className="flex lg:flex-row flex-col gap-6 ">
           <div className="lg:w-1/2 lg:h-1/2 lg:my-auto lg:mt-32  ">
             <h1 className="text-4xl font-bold">Poltek Solution</h1>

@@ -34,7 +34,7 @@ const WorkEhics = () => {
       <div className="border-2 border-solid lg:w-1/2 relative h-[50vh] h-inherit">
         <Image
           alt=""
-          src="https://raw.githubusercontent.com/Anandpandey0/portfolio-images/main/Expertise.jpg"
+          src="https://raw.githubusercontent.com/Anandpandey0/portfolio-images/main/work-ethic.jpg"
           fill
           className="object-cover"
         />
