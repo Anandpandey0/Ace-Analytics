@@ -5,7 +5,7 @@ import { FiSettings } from "react-icons/fi";
 const Services = () => {
   return (
     <div
-      className="flex flex-col lg:flex-row z-2  gap-4 lg:h-[45vh] mt-[-15rem] lg:mt-[-1rem] w-5/6 mx-auto "
+      className="flex flex-col lg:flex-row z-2 h-fit gap-4 lg:h-[45vh] mt-[-15rem] lg:mt-[-1rem] w-5/6 mx-auto "
       id="services"
     >
       <div className="lg:mt-8 lg:w-1/3  flex flex-col items-center    p-4 py-8 gap-4 bg-white text-black hover:bg-blue-800 hover:text-white px-8 ">

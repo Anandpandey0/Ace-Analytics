@@ -21,15 +21,15 @@ const AboutUs = () => {
             <FaCircle className="text-5xl text-blue-800" />
             <span className=" text-lg font-semibold">ABOUT THE COMPANY</span>
           </h1>
-          <h1 className="text-3xl font-extrabold mt-4 ">POLTEK</h1>
+          <h1 className="text-3xl font-extrabold mt-4 ">YACEANALYTICS</h1>
           <div className="mt-4 ">
-            We are a team of highly skilled young professionals, led by
-            accomplished IIT graduates with extensive experience in political
-            consultation and the execution of successful electoral campaigns.
-            Our founders have held leadership positions at several renowned
-            political consultancy firms, and our team members have played
-            critical roles in designing and executing some of the most
-            significant political campaigns in the country.
+            We are a team of young professionals, led by IIT graduates, having
+            vast experience of political consultation and execution of electoral
+            campaigns. Our founders have held leadership positions at most of
+            the renowned political consultancy firms like I-PAC, Mindshare and
+            ABM Our team members have played important roles in the designing
+            and execution of some of the biggest political campaigns, like West
+            Bengal 2021, Goa 2022, Punjab 2022 and Uttar Pradesh 2022
           </div>
           <button className="bg-blue-700 hover:bg-blue-800 text-white p-2 mt-4 px-4">
             Discover More
