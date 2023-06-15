@@ -31,6 +31,16 @@ const AboutUs = () => {
             and execution of some of the biggest political campaigns, like West
             Bengal 2021, Goa 2022, Punjab 2022 and Uttar Pradesh 2022
           </div>
+          <ul className="list-disc mx-4">
+            <li>Telangana | BRS | 119 AC</li>
+            <li>Rajasthan | INC | 100 AC</li>
+            <li>WB | AITC | 44 AC</li>
+            <li>Orissa | BJP | 7AC</li>
+            <li>UP | BJP | 8 AC</li>
+            <li>Goa | INC | 5 AC</li>
+            <li>Uk | INC | 5 AC</li>
+            <li>Punjab|Akali|1AC</li>
+          </ul>
           <button className="bg-blue-700 hover:bg-blue-800 text-white p-2 mt-4 px-4">
             Discover More
           </button>
