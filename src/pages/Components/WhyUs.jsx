@@ -15,33 +15,29 @@ import PersonalisedSoution from "./WhyUs-Components/PersonalisedSoution";
 
 const WhyUs = () => {
   return (
-    <Tabs isFitted variant="enclosed" className="w-5/6 mx-auto mt-8 ">
-      <TabList mb="1em">
+    <Tabs isFitted variant="enclosed" className=" mt-8 ">
+      <TabList mb="1em" className="flex overflow-x-scroll lg:overflow-hidden">
         <Tab
           _selected={{ color: "white", bg: "blue.500" }}
-          className="bg-white text-black"
-          mx="2rem"
+          className="bg-white text-black mx-4 lg:mx-[2rem]"
         >
           Expertise
         </Tab>
         <Tab
           _selected={{ color: "white", bg: "blue.500" }}
-          className="bg-white text-black"
-          mx="2rem"
+          className="bg-white text-black mx-4 lg:mx-[2rem]"
         >
           Personalised Solution
         </Tab>
         <Tab
           _selected={{ color: "white", bg: "blue.500" }}
-          className="bg-white text-black"
-          mx="2rem"
+          className="bg-white text-black mx-4 lg:mx-[2rem]"
         >
           Technology
         </Tab>
         <Tab
           _selected={{ color: "white", bg: "blue.500" }}
-          className="bg-white text-black"
-          mx="2rem"
+          className="bg-white text-black mx-4 lg:mx-[2rem]"
         >
           WorkEthics
         </Tab>

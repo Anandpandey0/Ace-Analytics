@@ -6,6 +6,7 @@ import Services from "./Components/Services";
 import WhyUs from "./Components/WhyUs";
 import AllServices from "./Components/AllServices";
 import Footer from "./Components/Footer";
+import Team from "./Components/Team";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
       </div>
       <Services />
       <AboutUs />
+      <Team />
       <WhyUs />
       <AllServices />
       <Footer />

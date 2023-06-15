@@ -4,7 +4,7 @@ import { FaCircle } from "react-icons/fa";
 
 const AboutUs = () => {
   return (
-    <>
+    <div id="about">
       <div className="w-5/6 mx-auto flex flex-col-reverse lg:flex-row gap-8 mt-24">
         <div className=" lg:w-1/2 h-[60vh] relative">
           <Image
@@ -40,7 +40,7 @@ const AboutUs = () => {
         {" "}
         4 Years Of Experience
       </div>
-    </>
+    </div>
   );
 };
 

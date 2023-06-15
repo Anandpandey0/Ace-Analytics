@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.scroll-transition {
+    transition: background-color 1s ease-in-out;
+    /* Customize the transition duration and easing */
+}

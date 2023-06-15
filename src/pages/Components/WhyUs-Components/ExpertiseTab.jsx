@@ -3,8 +3,8 @@ import React from "react";
 
 const ExpertiseTab = () => {
   return (
-    <div className="border-2 border-solid border-green-500  bg-white mt-8 h-fit   flex-col lg:flex-row rounded-xl flex p-4">
-      <div className="lg:w-1/2">
+    <div className="w-full  bg-white mt-8 h-fit   flex-col lg:flex-row rounded-xl flex p-4">
+      <div className="lg:w-1/2 ">
         <h1 className="underline text-2xl font-semibold">Our Expertise</h1>
         <div className="p-4 mt-8">
           <ol className="list-decimal text-gray-400 text-md p-2 ">
