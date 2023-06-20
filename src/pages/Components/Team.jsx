@@ -10,9 +10,9 @@ const Team = () => {
             {/* <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://dummyimage.com/400x400"/> */}
             <div class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded relative">
               <Image
-                alt="india-map"
+                alt="team"
                 src={
-                  "https://raw.githubusercontent.com/Anandpandey0/portfolio-images/main/clone-map.jpg"
+                  "https://raw.githubusercontent.com/Anandpandey0/portfolio-images/main/IMG-20230617-WA0004.jpg"
                 }
                 fill
                 className="object-fill lg:object-fill"
