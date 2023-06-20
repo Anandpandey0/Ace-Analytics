@@ -8,7 +8,7 @@ const Team = () => {
         <div class="container px-5 py-24 mx-auto">
           <div class="lg:w-4/5 mx-auto flex flex-wrap relative">
             {/* <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://dummyimage.com/400x400"/> */}
-            <div class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded relative">
+            <div class="lg:w-1/2 w-full lg:h-auto h-auto object-cover object-center rounded relative">
               <Image
                 alt="team"
                 src={
