@@ -8,14 +8,14 @@ const Team = () => {
         <div class="container px-5 py-24 mx-auto">
           <div class="lg:w-4/5 mx-auto flex flex-wrap relative">
             {/* <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://dummyimage.com/400x400"/> */}
-            <div class="lg:w-1/2 w-full lg:h-auto h-auto object-cover object-center rounded relative">
+            <div class="lg:w-1/2 w-full lg:h-auto h-[50vh] object-cover object-center rounded relative">
               <Image
                 alt="team"
                 src={
                   "https://raw.githubusercontent.com/Anandpandey0/portfolio-images/main/IMG-20230617-WA0004.jpg"
                 }
                 fill
-                className="object-fill lg:object-fill"
+                className="object-contain "
               />
             </div>
             <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">

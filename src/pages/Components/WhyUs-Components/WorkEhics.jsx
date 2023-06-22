@@ -3,7 +3,7 @@ import React from "react";
 
 const WorkEhics = () => {
   return (
-    <div className="border-2 border-solid border-green-500 h-fit   flex-col lg:flex-row bg-white mt-8 rounded-xl flex p-4">
+    <div className=" h-fit   flex-col lg:flex-row bg-white mt-8 rounded-xl flex p-4">
       <div className="lg:w-1/2">
         <h1 className="underline text-2xl font-semibold">Work Ethics</h1>
         <div className="p-4 mt-8">

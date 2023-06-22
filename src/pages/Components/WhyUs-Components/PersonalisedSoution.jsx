@@ -3,7 +3,7 @@ import React from "react";
 
 const PersonalisedSoution = () => {
   return (
-    <div className="border-2 border-solid border-green-500  bg-white mt-8 rounded-xl h-fit  flex flex-col lg:flex-row p-4">
+    <div className=" bg-white mt-8 rounded-xl h-fit  flex flex-col lg:flex-row p-4">
       <div className="lg:w-1/2">
         <h1 className="underline text-2xl font-semibold">
           Personalised Solution
